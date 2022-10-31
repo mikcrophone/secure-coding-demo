@@ -18,6 +18,9 @@ Download Rukovoditel 3.1 Below with XAMPP. XAMPP is an open source web-server so
 
 **After downloading, be sure to extract the packages to your _C:_ Drive**
 
+![ZIp](https://user-images.githubusercontent.com/69864260/198923901-a45d11af-2638-463c-9000-b98bdd681341.png)
+
+
 ## Launching Web Server
 
 Navigate to your _C:_ Drive.
@@ -39,5 +42,12 @@ Login using these credentials
 >user: admin
 
 >password: admin
+
+## XSS Vulnerabilty
+
+Launch your Burpsuite and Chromium Browser
+
+
+
 
 
