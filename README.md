@@ -88,7 +88,60 @@ This payload will make the browser ouput "1" to the page.
 ![test5](https://user-images.githubusercontent.com/69864260/198934123-008f6217-7141-4675-a762-08ca2c2477cb.png)
 
 
-An attacker with admin privleges could make use of this vulnerability.  These paylods are stored into the web servers database so everytime, this page is loaded, these scripts will run one by one.
+An attacker with admin privleges could make use of this vulnerability.  These paylods are stored into the web servers database so everytime this page is loaded, these scripts will run one by one.
+
+## Why?
+
+Kubozz states that the _name_ parameter is vulnerable because the parameter does not encode any output that is reflected back to the page.  Removal of script tags is not enough.
+
+### The Fix
+
+First, stop the web server.
+
+![XAMPP Stop](https://user-images.githubusercontent.com/69864260/198935230-99f286f8-8789-40b7-8a34-a82058b3a41f.png)
+
+
+Go to your **C:** Drive and open _xampp_ in VS Code(Preferred)
+
+Finding the actual source code for the vulnerable page was tricky because I cannot execute(or could not figure out how) the code to launch the webserver.  Nevertheless, I found the source code for the page.  
+
+Go to this path.
+
+> C:\xampp\htdocs\ruko\modules\holidays\actions\holidays.php
+
+
+As we see in the source code, the web page uses PHP scripting language.
+
+Go to line 18 of **holidays.php** and observe that the _name_ parameter does not use HTML Entity Encoded to encode any output to the webpage after submitted a holiday.
+
+>             'name' => ($_POST['name']),
+
+![vscode1](https://user-images.githubusercontent.com/69864260/198938623-51c3ae94-9aa8-486c-9d08-b43a53a0b96f.png)
+
+
+
+I am not familiar with PHP scripting language but after doing research. I found out the proper way to encode the _name_ parameter.
+
+> https://www.php.net/manual/en/function.htmlspecialchars.php
+
+
+This how you would encode the _name_ parameter.  Replace line 18 with the following code.
+
+>             'name' => htmlspecialchars($_POST['name']),
+
+![VScode2](https://user-images.githubusercontent.com/69864260/198938709-9994e9ac-81ae-4145-9381-b2890f84a04f.png)
+
+
+After replacing the code. Save the code.
+
+Relaunch the web server using XAMPP.
+
+Navigate yourself back to vulnerable page and you should notice that the previous payloads do not work because the _name_ parameter now encodes any output to the page.
+
+
+
+
+
 
 
 
