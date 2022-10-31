@@ -33,6 +33,9 @@ Locate and open the application:
 
 Click Start for Apache and MYSQL Server
 
+![XAMPP](https://user-images.githubusercontent.com/69864260/198924160-6e2506b7-34ea-42ae-9629-c3f9f18d1888.png)
+
+
 Navigate to this address on your Chromium Browser
 
 >localhost/ruko
