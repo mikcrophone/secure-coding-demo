@@ -27,3 +27,16 @@ Locate and open the folder:
 
 Locate and open the application: 
 > xampp-control
+
+Click Start for Apache and MYSQL Server
+
+Navigate to this address on your Chromium Browser
+
+>localhost/ruko
+
+Login using thes credentials
+
+>user: admin
+>password: admin
+
+
