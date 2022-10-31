@@ -46,10 +46,14 @@ Login using these credentials
 
 >password: admin
 
+![Ruko](https://user-images.githubusercontent.com/69864260/198924709-3192e859-8514-4b96-b00f-d5808b32a351.png)
+
+
 ## XSS Vulnerabilty
 
-Launch your Burpsuite and Chromium Browser
+Navigate to Configurations -> Hoildays
 
+![Holiday](https://user-images.githubusercontent.com/69864260/198926342-71172b4f-650e-4e0f-9413-2970d0d69cb3.png)
 
 
 
