@@ -34,9 +34,10 @@ Navigate to this address on your Chromium Browser
 
 >localhost/ruko
 
-Login using thes credentials
+Login using these credentials
 
 >user: admin
+
 >password: admin
 
 
