@@ -22,8 +22,8 @@ Download Rukovoditel 3.1 Below with XAMPP. XAMPP is an open source web-server so
 
 Navigate to your _C:_ Drive.
 
-Locate the folder 
+Locate and open the folder:
 > xampp
 
-Locate and open 
+Locate and open the application: 
 > xampp-control
