@@ -57,6 +57,7 @@ Navigate to Configurations -> Hoildays.
 
 Use **Burpsuite** to intercept browser.
 
+
 Click **Add** and test out request.
 
 ![test](https://user-images.githubusercontent.com/69864260/198927382-b906e571-0db7-4108-9709-4bfdcc750c0c.png)
@@ -64,6 +65,9 @@ Click **Add** and test out request.
 ![test1](https://user-images.githubusercontent.com/69864260/198927393-c7a8bb51-a697-45e6-b4c5-9c6a49f6344b.png)
 
 Send Request to the Repeater and test out Response.
+
+![test3](https://user-images.githubusercontent.com/69864260/198928693-ad971009-72c7-4620-88c7-b06bcd8f0919.png)
+
 
 
 
