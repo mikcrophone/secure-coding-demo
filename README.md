@@ -73,13 +73,13 @@ Kubozz states that the vulnerability is in the name parameter.
 
 They state that we can make use of the onerror event handler.
 
-Here is a sample payload that we can use for the name parameter to return the current session cookie
+Here is a sample payload that we can use for the name parameter to return the current session cookie. **Remove the Space between the first quote and >**
 
-"><img src=x onerror=alert(document.cookie);>
+> " ><img src=x onerror=alert(document.cookie);>
 
 This payload will make the browser ouput "1" to the page.
 
-"><img src=x onerror=alert(1);>
+> " ><img src=x onerror=alert(1);>
 
 
 ![test4](https://user-images.githubusercontent.com/69864260/198934108-87a37027-1e6c-4b06-9f1c-7d8acfc7c8e3.png)
