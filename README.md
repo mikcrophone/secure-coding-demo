@@ -15,3 +15,5 @@ Download Rukovoditel 3.1 Below with XAMPP. XAMPP is an open source web-server so
 > https://sourceforge.net/projects/rukovoditel/files/rukovoditel_3.1_xampp_php7.4.zip/download
 
 **After downloading, be sure to extract the packages to your _C:_ Drive**
+
+![Extraction Guide](https://prnt.sc/n4j85r1D4R8L)
