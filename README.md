@@ -31,16 +31,16 @@ Locate and open the folder:
 Locate and open the application: 
 > xampp-control
 
-Click Start for Apache and MYSQL Server
+Click Start for Apache and MYSQL Server.
 
 ![XAMPP](https://user-images.githubusercontent.com/69864260/198924160-6e2506b7-34ea-42ae-9629-c3f9f18d1888.png)
 
 
-Navigate to this address on your Chromium Browser
+Navigate to this address on your Chromium Browser.
 
 >localhost/ruko
 
-Login using these credentials
+Login using these credentials.
 
 >user: admin
 
@@ -51,9 +51,24 @@ Login using these credentials
 
 ## XSS Vulnerabilty
 
-Navigate to Configurations -> Hoildays
+Navigate to Configurations -> Hoildays.
 
 ![Holiday](https://user-images.githubusercontent.com/69864260/198926342-71172b4f-650e-4e0f-9413-2970d0d69cb3.png)
+
+Use **Burpsuite** to intercept browser.
+
+Click **Add** and test out request.
+
+![test](https://user-images.githubusercontent.com/69864260/198927382-b906e571-0db7-4108-9709-4bfdcc750c0c.png)
+
+![test1](https://user-images.githubusercontent.com/69864260/198927393-c7a8bb51-a697-45e6-b4c5-9c6a49f6344b.png)
+
+Send Request to the Repeater and test out Response.
+
+
+
+
+
 
 
 
